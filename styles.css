@@ -1,0 +1,116 @@
+/*
+====================================
+
+Assignment: Exam 3
+Name: Sarah Pasquale
+    
+FileName: styles.css
+Last updated: 11/10/2024
+
+====================================
+*/
+
+/* General */
+
+body {
+    background-image: url(media/lake-background.jpg);
+    background-size: cover;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    background-color: #6B604A;
+    color: white;
+    font-family: "Ultra", serif;
+    font-weight: 150;
+    text-align: center;
+    margin: 0;
+    padding: 25px;
+}
+
+h2, h4 {
+    color: white;
+    text-align: center;
+    margin-top: 35px;
+}
+
+#flex-nav {
+    background-color: #F0EEDF;
+    padding: 8px 0;
+    margin-bottom: 10px;
+}
+
+#nav-menu ul {
+    display: -webkit-flex;
+    display: flex;
+    list-style-type: none;
+    padding-inline-start: 0;
+    width: 80%;
+    margin: auto;
+}
+
+#nav-menu li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-flex: 3 1 200px;
+    flex: 2 1 200px;
+    text-align: center;
+}
+
+#menu {
+    display: none;
+}
+
+#nav-menu a {
+    text-decoration: none;
+    color: #524938;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+#nav-menu a:hover {
+    background-color: #524938;
+    color: white;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    border-top: solid 2px white;
+    margin-top: auto;
+}
+
+
+/* Details */
+
+
+#index-main {
+    text-align: center;
+}
+
+#index-main h2 {
+    font-size: 2rem;
+    padding: 5px;
+}
+
+#index-main h4 {
+    font-size: 1.3rem;
+    padding: 5px;
+}
+
+#index-main img {
+    max-width: 800px;
+    min-width: 200px;
+    border-radius: 20px;
+    box-shadow: 0 0 3px 3px #BFAC84;
+    margin-top: 30px;
+}
+
