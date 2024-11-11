@@ -10,6 +10,7 @@ Last updated: 11/10/2024
 ====================================
 */
 
+
 /* General */
 
 body {
@@ -90,7 +91,6 @@ footer {
 
 
 /* Details */
-
 
 #index-main {
     text-align: center;
@@ -227,7 +227,7 @@ footer {
 
 /* Responsive Styling */
 
-@media screen and (max-width: 1130px) {
+@media screen and (max-width: 1160px) {
     
     #index-main h2 {
         font-size: 20pt;
@@ -242,13 +242,14 @@ footer {
     }
 
     #flex1-table, #flex2-video {
-        margin: auto auto 20px auto;
+        margin: 20px auto;
         width: 90%;
     }
 
     footer {
         font-size: 10pt;
     }
+
 }
 
 @media screen and (max-width: 820px) {
